@@ -1,0 +1,78 @@
+# ============================================================
+# Vivado Build Artifacts (DO NOT TRACK)
+# ============================================================
+
+# Vivado project junk
+*.log
+*.jou
+*.str
+*.pb
+*.wdb
+
+# Vivado-generated folders
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.runs/
+.Xil/
+
+# Vivado project files that should NOT be in Git
+*.xpr
+*.xsa
+
+# Vivado simulation junk
+xsim.dir/
+*.wcfg
+*.svf
+
+# Vivado synthesis checkpoints
+*.dcp
+
+# Vivado IP cache
+*.cache/
+*.webtalk/
+
+# ============================================================
+# General FPGA / HDL build junk
+# ============================================================
+
+# Temporary build files
+*.tmp
+*.temp
+*.bak
+
+# Waveform dumps
+*.vcd
+*.vpd
+*.wlf
+
+# ============================================================
+# OS / Editor Junk
+# ============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+
+# ============================================================
+# Python / Cocotb (if used)
+# ============================================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
