@@ -26,9 +26,11 @@ fsqrt — Newton‑Raphson square root
 cordic_sincos — CORDIC rotation algorithm
 
 ## 📐 Q‑Format Explanation
-This library uses a configurable Qm.n fixed‑point format.
+ This library uses a configurable Qm.n fixed‑point format.
+
 
 Bit Layout
+
    MSB                                          LSB
     ↓                                            ↓
 ┌──────┬──────────────────────┬──────────────────────┐
